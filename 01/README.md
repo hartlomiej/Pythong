@@ -24,8 +24,21 @@ slowa = ['abc','abcd','a','ddddd']
 pary = [('abc',3), '('abcd',4), ('a',1), ('ddddd',5)]
 ```
 ## Zadanie 4 [2 pkt]
-Napisz skrypt, który posortuje n dat. Zdefiniuj i wykorzystaj słownik, która będzie posiadał klucze zawierające informacje na temat dnia, miesiąca i roku. Następnie posortuje dowolnym algorytmem daty rosnąco.
-
+Napisz skrypt, który posortuje n dat. Wykorzystaj poniższy słownik, zawierający klucze zawierające informacje na temat dnia, miesiąca i roku. Następnie posortuje dowolnym algorytmem daty rosnąco.
+```python
+daty = [{'d': 4, 'm': 10, 'y': 2000},
+        {'d': 2, 'm': 11, 'y': 2001},
+        {'d': 10, 'm': 9, 'y': 2000},
+        {'d': 11, 'm': 9, 'y': 2000},
+        {'d': 15, 'm': 9, 'y': 2000},
+        {'d': 15, 'm': 8, 'y': 2000},
+        {'d': 4, 'm': 10, 'y': 2000},
+        {'d': 5, 'm': 3, 'y': 2001},
+        {'d': 6, 'm': 1, 'y': 2005},
+        {'d': 2, 'm': 5, 'y': 2000},
+        {'d': 1, 'm': 2, 'y': 2001},
+        {'d': 10, 'm': 9, 'y': 2000}]
+```
 ## Zadanie 5 [2 pkt]
 Napisz skrypt, który szpłaszczy listę zagnieżdzoną. Zaimplementuj rozwiązania na dwa sposoby:
 - z użyciem zagnieżdzonej pętli for
